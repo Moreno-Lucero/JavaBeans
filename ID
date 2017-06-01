@@ -1,0 +1,23 @@
+package JavaBeans;
+
+/**
+ * Created by luceromoreno on 5/30/17.
+ */
+public class Id {
+    public static void main(String[] args) {
+        Ident person = new Ident();
+
+        person.setName("Lily Collins");
+        person.setHairColor("Red");
+        person.setEyeColor("Red");
+        person.setAge(24);
+
+
+
+        System.out.println(person.getName());
+        System.out.println(person.getAge());
+        System.out.println(person.getHairColor());
+        System.out.println(person.getEyeColor());
+
+    }
+}

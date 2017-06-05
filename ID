@@ -9,7 +9,7 @@ public class Id {
 
         person.setName("Lily Collins");
         person.setHairColor("Red");
-        person.setEyeColor("Red");
+        person.setEyeColor("Brown");
         person.setAge(24);
 
 
